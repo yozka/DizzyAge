@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Setup", "..\..\Setup\Setup.vcxproj", "{8D9295CC-E260-4C76-9EF8-43770FAE3AA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pak", "..\..\Pak\Pak.vcxproj", "{E5A2C209-A680-4239-8F92-4DFF4DA57173}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckTiles", "..\..\CheckTiles\checktiles.vcxproj", "{D49B559A-4F33-449F-9C34-3BB8DA6201D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\..\Engine\Engine.vcxproj", "{D42B91AA-006F-4929-B508-8B60FFB4C85C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TgaWorks", "..\..\TgaWorks\tgaworks.vcxproj", "{EA291A70-912F-4D97-9AF9-6C92B2415C6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioWorks", "..\..\AudioWorks\audioworks.vcxproj", "{139C29AD-36EB-4A4E-9A5E-2E1A9D2FB2FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontWorks", "..\..\FontWorks\FontWorks.vcxproj", "{58B73C08-F4E1-41C2-B232-C7455F9BBF01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextWorks", "..\..\TextWorks\textworks.vcxproj", "{152DB47D-02F5-4480-A762-0217768C7F10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9295CC-E260-4C76-9EF8-43770FAE3AA1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D9295CC-E260-4C76-9EF8-43770FAE3AA1}.Debug|Win32.Build.0 = Debug|Win32
+		{8D9295CC-E260-4C76-9EF8-43770FAE3AA1}.Release|Win32.ActiveCfg = Release|Win32
+		{8D9295CC-E260-4C76-9EF8-43770FAE3AA1}.Release|Win32.Build.0 = Release|Win32
+		{E5A2C209-A680-4239-8F92-4DFF4DA57173}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5A2C209-A680-4239-8F92-4DFF4DA57173}.Debug|Win32.Build.0 = Debug|Win32
+		{E5A2C209-A680-4239-8F92-4DFF4DA57173}.Release|Win32.ActiveCfg = Release|Win32
+		{E5A2C209-A680-4239-8F92-4DFF4DA57173}.Release|Win32.Build.0 = Release|Win32
+		{D49B559A-4F33-449F-9C34-3BB8DA6201D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D49B559A-4F33-449F-9C34-3BB8DA6201D7}.Debug|Win32.Build.0 = Debug|Win32
+		{D49B559A-4F33-449F-9C34-3BB8DA6201D7}.Release|Win32.ActiveCfg = Release|Win32
+		{D49B559A-4F33-449F-9C34-3BB8DA6201D7}.Release|Win32.Build.0 = Release|Win32
+		{D42B91AA-006F-4929-B508-8B60FFB4C85C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D42B91AA-006F-4929-B508-8B60FFB4C85C}.Debug|Win32.Build.0 = Debug|Win32
+		{D42B91AA-006F-4929-B508-8B60FFB4C85C}.Release|Win32.ActiveCfg = Release|Win32
+		{D42B91AA-006F-4929-B508-8B60FFB4C85C}.Release|Win32.Build.0 = Release|Win32
+		{EA291A70-912F-4D97-9AF9-6C92B2415C6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA291A70-912F-4D97-9AF9-6C92B2415C6B}.Debug|Win32.Build.0 = Debug|Win32
+		{EA291A70-912F-4D97-9AF9-6C92B2415C6B}.Release|Win32.ActiveCfg = Release|Win32
+		{EA291A70-912F-4D97-9AF9-6C92B2415C6B}.Release|Win32.Build.0 = Release|Win32
+		{139C29AD-36EB-4A4E-9A5E-2E1A9D2FB2FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{139C29AD-36EB-4A4E-9A5E-2E1A9D2FB2FC}.Debug|Win32.Build.0 = Debug|Win32
+		{139C29AD-36EB-4A4E-9A5E-2E1A9D2FB2FC}.Release|Win32.ActiveCfg = Release|Win32
+		{139C29AD-36EB-4A4E-9A5E-2E1A9D2FB2FC}.Release|Win32.Build.0 = Release|Win32
+		{58B73C08-F4E1-41C2-B232-C7455F9BBF01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58B73C08-F4E1-41C2-B232-C7455F9BBF01}.Debug|Win32.Build.0 = Debug|Win32
+		{58B73C08-F4E1-41C2-B232-C7455F9BBF01}.Release|Win32.ActiveCfg = Release|Win32
+		{58B73C08-F4E1-41C2-B232-C7455F9BBF01}.Release|Win32.Build.0 = Release|Win32
+		{152DB47D-02F5-4480-A762-0217768C7F10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{152DB47D-02F5-4480-A762-0217768C7F10}.Debug|Win32.Build.0 = Debug|Win32
+		{152DB47D-02F5-4480-A762-0217768C7F10}.Release|Win32.ActiveCfg = Release|Win32
+		{152DB47D-02F5-4480-A762-0217768C7F10}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C47981C6-F441-4511-B0D0-BBEEB6464578}
+	EndGlobalSection
+EndGlobal

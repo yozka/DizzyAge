@@ -1,0 +1,157 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  window.c
+  synthesis.c
+  smallft.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\smallft.c(99,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\smallft.c(100,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\smallft.c(283,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\smallft.c(284,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\smallft.c(853,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\smallft.c(854,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  sharedbook.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(55,32): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(56,40): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(67,51): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(151,1): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(210,37): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(230,37): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(209,1): warning C4244: инициализация: преобразование "long" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(229,1): warning C4244: инициализация: преобразование "long" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\sharedbook.c(379,58): warning C4244: =: преобразование "long" в "char", возможна потеря данных
+  res0.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\res0.c(266,58): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\res0.c(399,56): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\res0.c(400,34): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\res0.c(382,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\res0.c(462,53): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\res0.c(464,48): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  registry.c
+  psy.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(137,78): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(139,53): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(173,34): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(174,41): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(175,44): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(254,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(259,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(192,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(193,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(217,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(218,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(239,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(274,63): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(276,78): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(277,57): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(290,39): warning C4305: =: усечение из "double" в "float"
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(291,41): warning C4305: =: усечение из "double" в "float"
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(301,28): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(321,66): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(323,56): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(344,37): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(296,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(308,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(332,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(398,60): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(400,17): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(564,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(818,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(880,21): warning C4305: =: усечение из "double" в "float"
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(886,34): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(893,24): warning C4305: =: усечение из "double" в "float"
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(897,35): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(937,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(942,45): warning C4305: инициализация: усечение из "double" в "float"
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(974,33): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(975,33): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(976,26): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(978,32): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(979,32): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(980,23): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(984,33): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(985,33): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(986,26): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(988,32): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(989,32): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(990,23): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1019,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1020,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1079,25): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1092,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1110,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1162,80): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1151,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1152,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1222,69): warning C4244: *=: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\psy.c(1215,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  mdct.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mdct.c(58,55): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mdct.c(66,43): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mdct.c(67,46): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mdct.c(68,52): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mdct.c(69,54): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mdct.c(72,50): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mdct.c(73,53): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  mapping0.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mapping0.c(277,33): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mapping0.c(317,41): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mapping0.c(334,61): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\mapping0.c(390,33): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  lsp.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lookup.c(31,62): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lookup.c(38,68): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lsp.c(101,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lsp.c(351,15): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lsp.c(398,37): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lsp.c(450,28): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lsp.c(453,30): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  lpc.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\lpc.c(114,15): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  lookup.c
+  info.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(54,29): warning C4244: =: преобразование "long" в "char", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(69,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(76,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(77,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(78,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(100,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(101,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(119,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\info.c(120,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  floor1.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\floor1.c(288,1): warning C4244: инициализация: преобразование "const float" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\floor1.c(455,1): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\floor1.c(509,21): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\floor1.c(510,21): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  floor0.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\floor0.c(124,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\floor0.c(134,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  envelope.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\envelope.c(48,38): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\envelope.c(65,46): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\envelope.c(68,41): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\envelope.c(146,31): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\envelope.c(128,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  codebook.c
+  block.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\block.c(841,55): warning C4244: -=: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\block.c(844,56): warning C4244: +=: преобразование "ogg_int64_t" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\block.c(857,1): warning C4244: инициализация: преобразование "ogg_int64_t" в "long", возможна потеря данных
+  bitrate.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\bitrate.c(42,67): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\bitrate.c(43,67): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\bitrate.c(44,67): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\bitrate.c(51,1): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\bitrate.c(135,54): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\bitrate.c(83,1): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\bitrate.c(88,1): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+  analysis.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\analysis.c(75,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\analysis.c(76,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\lib\analysis.c(82,1): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\win32\Vorbis_Static_Debug\vorbis_static.lib) не соответствует значению свойства выходного файла (D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\win32\Vorbis_Static_Debug\vorbis_static_d.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(vorbis_static) не соответствует значению свойства выходного файла (vorbis_static_d) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  vorbis_static.vcxproj -> D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\vorbis\win32\Vorbis_Static_Debug\vorbis_static.lib

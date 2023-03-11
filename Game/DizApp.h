@@ -1,0 +1,46 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// GameApp.h
+///////////////////////////////////////////////////////////////////////////////////////////////////
+#ifndef __GAMEAPP_H__
+#define __GAMEAPP_H__
+
+#include "E9System.h"
+#include "D9Debug.h"
+#include "R9Render.h"
+
+#define ERRORMESSAGE( msg )				cDizApp::ErrorMessage( msg )
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// cDizApp
+///////////////////////////////////////////////////////////////////////////////////////////////////
+class cDizApp
+{
+public:
+				cDizApp();
+
+		BOOL	Init();
+		BOOL	InitApp();
+		BOOL	InitFiles();
+		BOOL	InitInput();
+		BOOL	InitAudio();
+		BOOL	InitVideo();
+
+		void	Done();
+		void	Activate( BOOL active );
+		BOOL	ToggleVideo();  
+
+		BOOL	Update();
+		void	Draw();
+		void	DrawStats();
+static	void	ErrorMessage( char* msg );	// error message box
+
+public:
+		int		m_gamefps;					// game updates per second (logic fps)
+		int		m_drawstats;				// show stats
+
+private:
+		BOOL	m_musicwaspaused;			// if music was paused when application was deactivated
+};
+
+#endif
+///////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6408f909-7833-4f9a-872c-301826326a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{4cfef8d2-b500-499f-9499-6091c4820045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{17d2ab5d-32d1-43d0-a28f-efbf534308db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{7c16f15d-dca9-4677-84ed-e6de77d8526f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{5dc4f56e-bc32-4cbf-b8e7-a14f52dabe91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{00361ee0-b26f-45ee-92f8-73ebc1d19ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{932038fe-5212-415b-b09d-83c3fe4e094a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gs">
+      <UniqueIdentifier>{51a8839a-2c80-4383-9bac-fc3ac7e1589a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\E9Array.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\E9Config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\E9Engine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\E9Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\E9List.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\E9Math.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\E9String.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\E9System.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\D9Breakpoint.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\D9Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\D9DH.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\D9Guard.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\D9Log.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\D9Memory.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\D9Shutdown.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9Archive.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9ArchivePak.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9ArchiveZip.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9File.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9FileDisk.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9FileMem.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9FilePak.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9FilePakZ.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9FileRes.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9Files.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\F9FileZip.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\I9Def.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\I9DeviceDX.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\I9FFDX.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\I9Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\I9InputDX.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9Audio.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9AudioDX.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9Codec.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9Codec_dumb.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9Codec_ogg.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9Codec_wav.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9Codec_ym.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\A9Def.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="App\E9App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9Font.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9Img.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9ImgLoader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9RenderDX.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9RenderGL.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9Resources.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\R9TexturePool.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gs.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gsasm.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gscfg.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gscompiler.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gsenv.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gserror.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gslexer.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gslexerdef.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gslib_default.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gslib_file.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gslib_math.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gslib_win.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gsnode.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gsparser.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gsutil.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="Gs\gsvm.h">
+      <Filter>Gs</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\E9Engine.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\E9Math.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\E9String.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\E9System.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\D9Breakpoint.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\D9Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\D9DH.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\D9Guard.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\D9Log.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\D9Memory.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\D9Shutdown.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9Archive.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9ArchivePak.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9ArchiveZip.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9File.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9FileDisk.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9FileMem.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9FilePak.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9FilePakZ.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9FileRes.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9Files.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Files\F9FileZip.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\I9DeviceDX.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\I9FFDX.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\I9Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\I9InputDX.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9Audio.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9AudioDX.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9Codec.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9Codec_dumb.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9Codec_ogg.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9Codec_wav.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9Codec_ym.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\A9Def.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="App\E9App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\R9Font.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\R9Img.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\R9ImgLoader.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\R9Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\R9RenderDX.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\R9RenderGL.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\R9TexturePool.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gs.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gsasm.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gscfg.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gscompiler.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gsenv.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gserror.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gslexer.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gslib_default.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gslib_file.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gslib_math.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gslib_win.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gsnode.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gsparser.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gsutil.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="Gs\gsvm.cpp">
+      <Filter>Gs</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+</Project>

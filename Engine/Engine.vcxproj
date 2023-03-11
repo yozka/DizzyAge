@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D42B91AA-006F-4929-B508-8B60FFB4C85C}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.32830.301</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\!Out\Debug\</OutDir>
+    <IntDir>.\!Out\Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\!Out\Release\</OutDir>
+    <IntDir>.\!Out\Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;Common;Debug;Files;Sound;Render;..\Libs\zlib;..\Libs\lpng;..\Libs\ljpeg;..\Libs\dumb\include;..\Libs\ogg\include;..\Libs\vorbis\include;..\Libs\stsound;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;D3D_DEBUG_INFO1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(ProjectName).lib $(ProjectName)_d.lib </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <AdditionalIncludeDirectories>.\;Common;Debug;Files;Sound;Render;..\Libs\zlib;..\Libs\lpng;..\Libs\ljpeg;..\Libs\dumb\include;..\Libs\ogg\include;..\Libs\vorbis\include;..\Libs\stsound;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(ProjectName).lib $(ProjectName).lib </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="App\E9App.h" />
+    <ClInclude Include="Common\E9Array.h" />
+    <ClInclude Include="Common\E9Config.h" />
+    <ClInclude Include="Common\E9Engine.h" />
+    <ClInclude Include="Common\E9Hash.h" />
+    <ClInclude Include="Common\E9List.h" />
+    <ClInclude Include="Common\E9Math.h" />
+    <ClInclude Include="Common\E9String.h" />
+    <ClInclude Include="Common\E9System.h" />
+    <ClInclude Include="Debug\D9Breakpoint.h" />
+    <ClInclude Include="Debug\D9Debug.h" />
+    <ClInclude Include="Debug\D9DH.h" />
+    <ClInclude Include="Debug\D9Guard.h" />
+    <ClInclude Include="Debug\D9Log.h" />
+    <ClInclude Include="Debug\D9Memory.h" />
+    <ClInclude Include="Debug\D9Shutdown.h" />
+    <ClInclude Include="Files\F9Archive.h" />
+    <ClInclude Include="Files\F9ArchivePak.h" />
+    <ClInclude Include="Files\F9ArchiveZip.h" />
+    <ClInclude Include="Files\F9File.h" />
+    <ClInclude Include="Files\F9FileDisk.h" />
+    <ClInclude Include="Files\F9FileMem.h" />
+    <ClInclude Include="Files\F9FilePak.h" />
+    <ClInclude Include="Files\F9FilePakZ.h" />
+    <ClInclude Include="Files\F9FileRes.h" />
+    <ClInclude Include="Files\F9Files.h" />
+    <ClInclude Include="Files\F9FileZip.h" />
+    <ClInclude Include="Gs\gs.h" />
+    <ClInclude Include="Gs\gsasm.h" />
+    <ClInclude Include="Gs\gscfg.h" />
+    <ClInclude Include="Gs\gscompiler.h" />
+    <ClInclude Include="Gs\gsenv.h" />
+    <ClInclude Include="Gs\gserror.h" />
+    <ClInclude Include="Gs\gslexer.h" />
+    <ClInclude Include="Gs\gslexerdef.h" />
+    <ClInclude Include="Gs\gslib_default.h" />
+    <ClInclude Include="Gs\gslib_file.h" />
+    <ClInclude Include="Gs\gslib_math.h" />
+    <ClInclude Include="Gs\gslib_win.h" />
+    <ClInclude Include="Gs\gsnode.h" />
+    <ClInclude Include="Gs\gsparser.h" />
+    <ClInclude Include="Gs\gsutil.h" />
+    <ClInclude Include="Gs\gsvm.h" />
+    <ClInclude Include="Input\I9Def.h" />
+    <ClInclude Include="Input\I9DeviceDX.h" />
+    <ClInclude Include="Input\I9FFDX.h" />
+    <ClInclude Include="Input\I9Input.h" />
+    <ClInclude Include="Input\I9InputDX.h" />
+    <ClInclude Include="Render\R9Font.h" />
+    <ClInclude Include="Render\R9Img.h" />
+    <ClInclude Include="Render\R9ImgLoader.h" />
+    <ClInclude Include="Render\R9Render.h" />
+    <ClInclude Include="Render\R9RenderDX.h" />
+    <ClInclude Include="Render\R9RenderGL.h" />
+    <ClInclude Include="Render\R9Resources.h" />
+    <ClInclude Include="Render\R9TexturePool.h" />
+    <ClInclude Include="Sound\A9Audio.h" />
+    <ClInclude Include="Sound\A9AudioDX.h" />
+    <ClInclude Include="Sound\A9Codec.h" />
+    <ClInclude Include="Sound\A9Codec_dumb.h" />
+    <ClInclude Include="Sound\A9Codec_ogg.h" />
+    <ClInclude Include="Sound\A9Codec_wav.h" />
+    <ClInclude Include="Sound\A9Codec_ym.h" />
+    <ClInclude Include="Sound\A9Def.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\E9App.cpp" />
+    <ClCompile Include="Common\E9Engine.cpp" />
+    <ClCompile Include="Common\E9Math.cpp" />
+    <ClCompile Include="Common\E9String.cpp" />
+    <ClCompile Include="Common\E9System.cpp" />
+    <ClCompile Include="Debug\D9Breakpoint.cpp" />
+    <ClCompile Include="Debug\D9Debug.cpp" />
+    <ClCompile Include="Debug\D9DH.cpp" />
+    <ClCompile Include="Debug\D9Guard.cpp" />
+    <ClCompile Include="Debug\D9Log.cpp" />
+    <ClCompile Include="Debug\D9Memory.cpp" />
+    <ClCompile Include="Debug\D9Shutdown.cpp" />
+    <ClCompile Include="Files\F9Archive.cpp" />
+    <ClCompile Include="Files\F9ArchivePak.cpp" />
+    <ClCompile Include="Files\F9ArchiveZip.cpp" />
+    <ClCompile Include="Files\F9File.cpp" />
+    <ClCompile Include="Files\F9FileDisk.cpp" />
+    <ClCompile Include="Files\F9FileMem.cpp" />
+    <ClCompile Include="Files\F9FilePak.cpp" />
+    <ClCompile Include="Files\F9FilePakZ.cpp" />
+    <ClCompile Include="Files\F9FileRes.cpp" />
+    <ClCompile Include="Files\F9Files.cpp" />
+    <ClCompile Include="Files\F9FileZip.cpp" />
+    <ClCompile Include="Gs\gs.cpp" />
+    <ClCompile Include="Gs\gsasm.cpp" />
+    <ClCompile Include="Gs\gscfg.cpp" />
+    <ClCompile Include="Gs\gscompiler.cpp" />
+    <ClCompile Include="Gs\gsenv.cpp" />
+    <ClCompile Include="Gs\gserror.cpp" />
+    <ClCompile Include="Gs\gslexer.cpp" />
+    <ClCompile Include="Gs\gslib_default.cpp" />
+    <ClCompile Include="Gs\gslib_file.cpp" />
+    <ClCompile Include="Gs\gslib_math.cpp" />
+    <ClCompile Include="Gs\gslib_win.cpp" />
+    <ClCompile Include="Gs\gsnode.cpp" />
+    <ClCompile Include="Gs\gsparser.cpp" />
+    <ClCompile Include="Gs\gsutil.cpp" />
+    <ClCompile Include="Gs\gsvm.cpp" />
+    <ClCompile Include="Input\I9DeviceDX.cpp" />
+    <ClCompile Include="Input\I9FFDX.cpp" />
+    <ClCompile Include="Input\I9Input.cpp" />
+    <ClCompile Include="Input\I9InputDX.cpp" />
+    <ClCompile Include="Render\R9Font.cpp" />
+    <ClCompile Include="Render\R9Img.cpp" />
+    <ClCompile Include="Render\R9ImgLoader.cpp" />
+    <ClCompile Include="Render\R9Render.cpp" />
+    <ClCompile Include="Render\R9RenderDX.cpp" />
+    <ClCompile Include="Render\R9RenderGL.cpp" />
+    <ClCompile Include="Render\R9TexturePool.cpp" />
+    <ClCompile Include="Sound\A9Audio.cpp" />
+    <ClCompile Include="Sound\A9AudioDX.cpp" />
+    <ClCompile Include="Sound\A9Codec.cpp" />
+    <ClCompile Include="Sound\A9Codec_dumb.cpp" />
+    <ClCompile Include="Sound\A9Codec_ogg.cpp" />
+    <ClCompile Include="Sound\A9Codec_wav.cpp" />
+    <ClCompile Include="Sound\A9Codec_ym.cpp" />
+    <ClCompile Include="Sound\A9Def.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

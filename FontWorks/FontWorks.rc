@@ -1,0 +1,197 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 340, 359
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "FontWorks v2.2"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TEXTURE_FILE,12,18,228,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_TEXTURE_BROWSE,246,18,18,12
+    CONTROL         "Has alpha",IDC_TEXTURE_ALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,276,18,48,12
+    EDITTEXT        IDC_TEXTURE_W,12,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TEXTURE_H,48,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAP_X,84,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAP_Y,126,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAP_W,168,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAP_H,210,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CEL_W,252,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CEL_H,294,48,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PAINT_FONT,12,96,72,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PAINT_BROWSE,90,96,18,12
+    CONTROL         "Bold",IDC_PAINT_BOLD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,120,96,30,12
+    CONTROL         "Italic",IDC_PAINT_ITALIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,156,96,30,12
+    CONTROL         "Aalising",IDC_PAINT_AALISING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,192,96,42,12
+    EDITTEXT        IDC_PAINT_W,12,127,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PAINT_H,66,127,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PAINT_PAPER,120,126,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PAINT_INK,174,126,42,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "PAINT",IDC_PAINT,276,78,48,18
+    CONTROL         "Chessboard",IDC_PAINT_CELLS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,276,102,54,12
+    EDITTEXT        IDC_FONT_CHRW,12,174,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FONT_CHRH,54,174,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FONT_OFSX,96,174,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FONT_OFSY,138,174,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FONT_SCALE,180,174,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FONT_ASPECT,222,174,30,12,ES_AUTOHSCROLL
+    CONTROL         "Italic",IDC_FONT_ITALIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,192,30,12
+    PUSHBUTTON      "MAKE",IDC_MAKE,276,156,48,18
+    CONTROL         "Best fit",IDC_FONT_BESTFIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,276,180,36,12
+    CONTROL         "Use alpha",IDC_FONT_ALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,276,192,48,12
+    COMBOBOX        IDC_CHARACTER_SET,12,240,114,78,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_CHARACTER_BIT0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,144,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,156,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,168,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,192,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,204,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,216,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,228,240,12,12
+    CONTROL         "",IDC_CHARACTER_BIT9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,240,240,12,12
+    EDITTEXT        IDC_CHARACTER_LIST,12,258,240,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "HELP",IDC_HLP,276,234,48,18
+    PUSHBUTTON      "EXIT",IDC_EXIT,276,258,48,18
+    GROUPBOX        "Texture",IDC_STATIC,6,6,324,60
+    LTEXT           "Tex W",IDC_STATIC,12,36,28,8
+    LTEXT           "Tex H",IDC_STATIC,48,36,28,8
+    LTEXT           "Map X",IDC_STATIC,84,36,28,8
+    LTEXT           "Map Y",IDC_STATIC,126,36,28,8
+    LTEXT           "Columns",IDC_STATIC,168,36,28,8
+    LTEXT           "Rows",IDC_STATIC,210,36,28,8
+    LTEXT           "Cel W",IDC_STATIC,252,36,28,8
+    LTEXT           "Cel H",IDC_STATIC,294,36,28,8
+    GROUPBOX        "Characters",IDC_STATIC,6,216,258,60
+    LTEXT           "Characters set",IDC_STATIC,12,228,78,8
+    LTEXT           "Subsets bits",IDC_STATIC,132,228,78,8
+    GROUPBOX        "Paint",IDC_STATIC,6,72,258,72
+    LTEXT           "Font name",IDC_STATIC,12,84,48,8
+    LTEXT           "Width",IDC_STATIC,12,114,28,8
+    LTEXT           "Height",IDC_STATIC,66,114,28,8
+    LTEXT           "Paper",IDC_STATIC,120,114,28,8
+    LTEXT           "Ink",IDC_STATIC,174,114,28,8
+    GROUPBOX        "Font",IDC_STATIC,6,150,258,60
+    LTEXT           "Chr width",IDC_STATIC,12,162,36,8
+    LTEXT           "Chr height",IDC_STATIC,54,162,36,8
+    LTEXT           "Scale",IDC_STATIC,180,162,28,8
+    LTEXT           "Aspect",IDC_STATIC,222,162,28,8
+    LTEXT           "Offset X",IDC_STATIC,96,162,30,8
+    LTEXT           "Offset Y",IDC_STATIC,138,162,30,8
+    EDITTEXT        IDC_LOG,6,288,324,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_INPUTBOX DIALOGEX 0, 0, 151, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Input"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT,7,40,137,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MSG,7,7,137,29,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 330
+        VERTGUIDE, 120
+        VERTGUIDE, 210
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 349
+        HORZGUIDE, 30
+    END
+
+    IDD_INPUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Tool.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

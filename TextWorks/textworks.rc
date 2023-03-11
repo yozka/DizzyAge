@@ -1,0 +1,136 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 274, 293
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "TextWorks v2.2"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,53,12,187,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE1,247,12,17,12
+    EDITTEXT        IDC_EDIT2,53,30,187,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "EXPORT",IDC_EXPORT,12,264,48,16
+    PUSHBUTTON      "EXIT",IDC_EXIT,156,264,48,16
+    PUSHBUTTON      "HELP",IDC_HLP,216,264,48,16
+    EDITTEXT        IDC_LOG,12,156,252,93,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Input Folder",IDC_TEXT1,6,15,44,8
+    LTEXT           "Tag File",IDC_TEXT2,6,34,44,8
+    PUSHBUTTON      "IMPORT",IDC_IMPORT,72,264,48,16
+    PUSHBUTTON      "...",IDC_BROWSE2,247,30,17,12
+    EDITTEXT        IDC_TAGSRCPREFIX,12,102,72,14,ES_AUTOHSCROLL
+    LTEXT           "Source prefix",IDC_STATIC,12,90,42,8
+    EDITTEXT        IDC_TAGSRCSUFIX,96,102,72,14,ES_AUTOHSCROLL
+    LTEXT           "Source sufix",IDC_STATIC,96,90,40,8
+    EDITTEXT        IDC_TAGOUTPREFIX,12,132,72,14,ES_AUTOHSCROLL
+    LTEXT           "Output prefix",IDC_STATIC,12,120,41,8
+    EDITTEXT        IDC_TAGOUTSUFIX,96,132,72,14,ES_AUTOHSCROLL
+    LTEXT           "Output sufix",IDC_STATIC,96,120,38,8
+    EDITTEXT        IDC_TAGNO,188,65,54,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Start tag number",IDC_STATIC,188,52,53,8
+    EDITTEXT        IDC_EXT1,12,66,36,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Export extensions",IDC_STATIC,23,54,60,8
+    EDITTEXT        IDC_EXT2,66,66,36,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Import extensions",IDC_STATIC,90,54,56,8
+    EDITTEXT        IDC_EXT3,120,66,36,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           ">>",IDC_STATIC,53,68,8,8
+    LTEXT           ">>",IDC_STATIC,107,68,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 264
+        VERTGUIDE, 120
+        VERTGUIDE, 248
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 289
+        HORZGUIDE, 30
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Tool.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

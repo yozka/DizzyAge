@@ -1,0 +1,1 @@
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\stsound\Debug\StSoundLibrary.lib

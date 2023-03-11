@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Res">
+      <UniqueIdentifier>{99840b94-1641-4305-af39-6c03f2b57a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wui">
+      <UniqueIdentifier>{d05e40da-fdb0-49b0-8185-dfef47e786af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\background.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\browse.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\dizzyage.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\icon.ico">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\icon_advanced.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\icon_audio.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\icon_disk.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\icon_input.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\icon_pc.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\icon_video.png">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\setup.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\cursor_finger.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\cursor_hand.cur">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\setup.gs">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Wui\Wnd.h">
+      <Filter>Wui</Filter>
+    </ClInclude>
+    <ClInclude Include="Wui\WndDlg.h">
+      <Filter>Wui</Filter>
+    </ClInclude>
+    <ClInclude Include="Wui\WUIApp.h">
+      <Filter>Wui</Filter>
+    </ClInclude>
+    <ClInclude Include="Wui\WUIItem.h">
+      <Filter>Wui</Filter>
+    </ClInclude>
+    <ClInclude Include="Wui\WUIItemEdit.h">
+      <Filter>Wui</Filter>
+    </ClInclude>
+    <ClInclude Include="Wui\WUIResource.h">
+      <Filter>Wui</Filter>
+    </ClInclude>
+    <ClInclude Include="Wui\WUIScript.h">
+      <Filter>Wui</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupApp.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Wui\Wnd.cpp">
+      <Filter>Wui</Filter>
+    </ClCompile>
+    <ClCompile Include="Wui\WndDlg.cpp">
+      <Filter>Wui</Filter>
+    </ClCompile>
+    <ClCompile Include="Wui\WUIApp.cpp">
+      <Filter>Wui</Filter>
+    </ClCompile>
+    <ClCompile Include="Wui\WUIItem.cpp">
+      <Filter>Wui</Filter>
+    </ClCompile>
+    <ClCompile Include="Wui\WUIItemEdit.cpp">
+      <Filter>Wui</Filter>
+    </ClCompile>
+    <ClCompile Include="Wui\WUIResource.cpp">
+      <Filter>Wui</Filter>
+    </ClCompile>
+    <ClCompile Include="Wui\WUIScript.cpp">
+      <Filter>Wui</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup.cpp" />
+    <ClCompile Include="SetupApp.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Setup.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StSoundLibrary - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP6F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Work2005\Src\Libs\stsound\LZH\LzhLib.cpp"
+"D:\Work2005\Src\Libs\stsound\digidrum.cpp"
+"D:\Work2005\Src\Libs\stsound\Ym2149Ex.cpp"
+"D:\Work2005\Src\Libs\stsound\Ymload.cpp"
+"D:\Work2005\Src\Libs\stsound\YmMusic.cpp"
+"D:\Work2005\Src\Libs\stsound\YmUserInterface.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP6F.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\StSoundLibrary.lib"  .\Debug\LzhLib.obj .\Debug\digidrum.obj .\Debug\Ym2149Ex.obj .\Debug\Ymload.obj .\Debug\YmMusic.obj .\Debug\YmUserInterface.obj "
+<h3>Output Window</h3>
+Compiling...
+LzhLib.cpp
+digidrum.cpp
+Ym2149Ex.cpp
+Ymload.cpp
+d:\work2005\src\libs\stsound\ymload.cpp(576) : warning C4018: '!=' : signed/unsigned mismatch
+YmMusic.cpp
+YmUserInterface.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+StSoundLibrary.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

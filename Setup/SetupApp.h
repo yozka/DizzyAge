@@ -1,0 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// SetupApp.h
+//////////////////////////////////////////////////////////////////////////////////////////////////
+#ifndef __SETUPAPP_H__
+#define __SETUPAPP_H__
+
+#include "WUIApp.h"
+
+class cSetupApp : public cWUIApp
+{
+public:
+					cSetupApp();
+virtual			   ~cSetupApp();
+
+virtual BOOL		Init			( HINSTANCE	hinst, HINSTANCE hinstPrev, LPSTR cmdline, int cmdshow ); // do init the application (managers and stuff)
+virtual void		Done			();														// destroy the application
+
+		void		RegisterFunc	();				// register specific script fn
+};
+
+#endif
+//////////////////////////////////////////////////////////////////////////////////////////////////
+

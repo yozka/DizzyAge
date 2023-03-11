@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vorbisfile_static - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP7C.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\include" /I "..\..\ogg\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"VorbisFile_Static_Debug/" /Fd"VorbisFile_Static_Debug/" /FD /GZ /c 
+"D:\Work2005\Src\Libs\vorbis\lib\vorbisfile.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP7C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"VorbisFile_Static_Debug\vorbisfile_static_d.lib"  .\VorbisFile_Static_Debug\vorbisfile.obj \Work2005\Src\Libs\ogg\win32\Static_Debug\ogg_static_d.lib .\Vorbis_Static_Debug\vorbis_static_d.lib "
+<h3>Output Window</h3>
+Compiling...
+vorbisfile.c
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(421) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(630) : warning C4244: 'function' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(835) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(836) : warning C4244: 'return' : conversion from 'double ' to 'long ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(840) : warning C4244: 'return' : conversion from 'double ' to 'long ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(868) : warning C4244: '=' : conversion from 'double ' to 'long ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(1346) : warning C4244: '=' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(1379) : warning C4244: 'initializing' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(1406) : warning C4244: 'initializing' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(1726) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+d:\work2005\src\libs\vorbis\lib\vorbisfile.c(630) : warning C4761: integral size mismatch in argument; conversion supplied
+Creating library...
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_version already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_continued already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_bos already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_eos already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_granulepos already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_serialno already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_pageno already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_packets already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_init already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_clear already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_destroy already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_page_checksum_set already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_packetin already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_flush already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_pageout already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_eos already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_init already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_clear already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_destroy already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_buffer already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_wrote already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_pageseek already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_pageout already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_pagein already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_sync_reset already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_reset already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_reset_serialno already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_packetout already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_stream_packetpeek already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(framing.obj) : warning LNK4006: _ogg_packet_clear already defined in ogg_static_d.lib(framing.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_writeinit already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_writeinit already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_writetrunc already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_writetrunc already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_write already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_write already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_writealign already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_writealign already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_writecopy already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_writecopy already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_reset already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_reset already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_writeclear already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_writeclear already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_readinit already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_readinit already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_look already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_look already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_look1 already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_look1 already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_adv already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_adv already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_adv1 already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_adv1 already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_read already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_read already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_read1 already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_read1 already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_bytes already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_bits already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_bytes already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_bits already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpack_get_buffer already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+vorbis_static_d.lib(bitwise.obj) : warning LNK4006: _oggpackB_get_buffer already defined in ogg_static_d.lib(bitwise.obj); second definition ignored
+
+
+
+<h3>Results</h3>
+vorbisfile_static_d.lib - 0 error(s), 75 warning(s)
+</pre>
+</body>
+</html>

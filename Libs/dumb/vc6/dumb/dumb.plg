@@ -1,0 +1,149 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dumb - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "DUMB_DECLARE_DEPRECATED" /D DEBUGMODE=1 /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Work2005\Src\Libs\dumb\src\core\atexit.c"
+"D:\Work2005\Src\Libs\dumb\src\core\duhlen.c"
+"D:\Work2005\Src\Libs\dumb\src\core\duhtag.c"
+"D:\Work2005\Src\Libs\dumb\src\core\dumbfile.c"
+"D:\Work2005\Src\Libs\dumb\src\core\loadduh.c"
+"D:\Work2005\Src\Libs\dumb\src\core\makeduh.c"
+"D:\Work2005\Src\Libs\dumb\src\core\rawsig.c"
+"D:\Work2005\Src\Libs\dumb\src\core\readduh.c"
+"D:\Work2005\Src\Libs\dumb\src\core\register.c"
+"D:\Work2005\Src\Libs\dumb\src\core\rendduh.c"
+"D:\Work2005\Src\Libs\dumb\src\core\rendsig.c"
+"D:\Work2005\Src\Libs\dumb\src\core\unload.c"
+"D:\Work2005\Src\Libs\dumb\src\helpers\clickrem.c"
+"D:\Work2005\Src\Libs\dumb\src\helpers\memfile.c"
+"D:\Work2005\Src\Libs\dumb\src\helpers\resample.c"
+"D:\Work2005\Src\Libs\dumb\src\helpers\sampbuf.c"
+"D:\Work2005\Src\Libs\dumb\src\helpers\silence.c"
+"D:\Work2005\Src\Libs\dumb\src\helpers\stdfile.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itload.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itload2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itmisc.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itorder.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itread.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itread2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itrender.c"
+"D:\Work2005\Src\Libs\dumb\src\it\itunload.c"
+"D:\Work2005\Src\Libs\dumb\src\it\loadmod.c"
+"D:\Work2005\Src\Libs\dumb\src\it\loadmod2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\loads3m.c"
+"D:\Work2005\Src\Libs\dumb\src\it\loads3m2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\loadxm.c"
+"D:\Work2005\Src\Libs\dumb\src\it\loadxm2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\readmod.c"
+"D:\Work2005\Src\Libs\dumb\src\it\readmod2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\reads3m.c"
+"D:\Work2005\Src\Libs\dumb\src\it\reads3m2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\readxm.c"
+"D:\Work2005\Src\Libs\dumb\src\it\readxm2.c"
+"D:\Work2005\Src\Libs\dumb\src\it\xmeffect.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP64.tmp" 
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+/nologo /out:"Debug\dumbd.lib" 
+.\Debug\atexit.obj
+.\Debug\duhlen.obj
+.\Debug\duhtag.obj
+.\Debug\dumbfile.obj
+.\Debug\loadduh.obj
+.\Debug\makeduh.obj
+.\Debug\rawsig.obj
+.\Debug\readduh.obj
+.\Debug\register.obj
+.\Debug\rendduh.obj
+.\Debug\rendsig.obj
+.\Debug\unload.obj
+.\Debug\clickrem.obj
+.\Debug\memfile.obj
+.\Debug\resample.obj
+.\Debug\sampbuf.obj
+.\Debug\silence.obj
+.\Debug\stdfile.obj
+.\Debug\itload.obj
+.\Debug\itload2.obj
+.\Debug\itmisc.obj
+.\Debug\itorder.obj
+.\Debug\itread.obj
+.\Debug\itread2.obj
+.\Debug\itrender.obj
+.\Debug\itunload.obj
+.\Debug\loadmod.obj
+.\Debug\loadmod2.obj
+.\Debug\loads3m.obj
+.\Debug\loads3m2.obj
+.\Debug\loadxm.obj
+.\Debug\loadxm2.obj
+.\Debug\readmod.obj
+.\Debug\readmod2.obj
+.\Debug\reads3m.obj
+.\Debug\reads3m2.obj
+.\Debug\readxm.obj
+.\Debug\readxm2.obj
+.\Debug\xmeffect.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP65.tmp"
+<h3>Output Window</h3>
+Compiling...
+atexit.c
+duhlen.c
+duhtag.c
+dumbfile.c
+loadduh.c
+makeduh.c
+rawsig.c
+readduh.c
+register.c
+rendduh.c
+rendsig.c
+unload.c
+clickrem.c
+memfile.c
+resample.c
+sampbuf.c
+silence.c
+stdfile.c
+itload.c
+itload2.c
+Generating Code...
+Compiling...
+itmisc.c
+itorder.c
+itread.c
+itread2.c
+itrender.c
+itunload.c
+loadmod.c
+loadmod2.c
+loads3m.c
+loads3m2.c
+loadxm.c
+loadxm2.c
+readmod.c
+readmod2.c
+reads3m.c
+reads3m2.c
+readxm.c
+readxm2.c
+xmeffect.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+dumbd.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

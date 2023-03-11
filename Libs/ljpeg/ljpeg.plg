@@ -1,0 +1,181 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ljpeg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP66.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"!Out\Debug/" /Fd"!Out\Debug/" /FD /GZ /c 
+"D:\Work2005\Src\Libs\ljpeg\jcapimin.c"
+"D:\Work2005\Src\Libs\ljpeg\jcapistd.c"
+"D:\Work2005\Src\Libs\ljpeg\jccoefct.c"
+"D:\Work2005\Src\Libs\ljpeg\jccolor.c"
+"D:\Work2005\Src\Libs\ljpeg\jcdctmgr.c"
+"D:\Work2005\Src\Libs\ljpeg\jchuff.c"
+"D:\Work2005\Src\Libs\ljpeg\jcinit.c"
+"D:\Work2005\Src\Libs\ljpeg\jcmainct.c"
+"D:\Work2005\Src\Libs\ljpeg\jcmarker.c"
+"D:\Work2005\Src\Libs\ljpeg\jcmaster.c"
+"D:\Work2005\Src\Libs\ljpeg\jcomapi.c"
+"D:\Work2005\Src\Libs\ljpeg\jcparam.c"
+"D:\Work2005\Src\Libs\ljpeg\jcphuff.c"
+"D:\Work2005\Src\Libs\ljpeg\jcprepct.c"
+"D:\Work2005\Src\Libs\ljpeg\jcsample.c"
+"D:\Work2005\Src\Libs\ljpeg\jctrans.c"
+"D:\Work2005\Src\Libs\ljpeg\jdapimin.c"
+"D:\Work2005\Src\Libs\ljpeg\jdapistd.c"
+"D:\Work2005\Src\Libs\ljpeg\jdatadst.c"
+"D:\Work2005\Src\Libs\ljpeg\jdatasrc.c"
+"D:\Work2005\Src\Libs\ljpeg\jdcoefct.c"
+"D:\Work2005\Src\Libs\ljpeg\jdcolor.c"
+"D:\Work2005\Src\Libs\ljpeg\jddctmgr.c"
+"D:\Work2005\Src\Libs\ljpeg\jdhuff.c"
+"D:\Work2005\Src\Libs\ljpeg\jdinput.c"
+"D:\Work2005\Src\Libs\ljpeg\jdmainct.c"
+"D:\Work2005\Src\Libs\ljpeg\jdmarker.c"
+"D:\Work2005\Src\Libs\ljpeg\jdmaster.c"
+"D:\Work2005\Src\Libs\ljpeg\jdmerge.c"
+"D:\Work2005\Src\Libs\ljpeg\jdphuff.c"
+"D:\Work2005\Src\Libs\ljpeg\jdpostct.c"
+"D:\Work2005\Src\Libs\ljpeg\jdsample.c"
+"D:\Work2005\Src\Libs\ljpeg\jdtrans.c"
+"D:\Work2005\Src\Libs\ljpeg\jerror.c"
+"D:\Work2005\Src\Libs\ljpeg\jfdctflt.c"
+"D:\Work2005\Src\Libs\ljpeg\jfdctfst.c"
+"D:\Work2005\Src\Libs\ljpeg\jfdctint.c"
+"D:\Work2005\Src\Libs\ljpeg\jidctflt.c"
+"D:\Work2005\Src\Libs\ljpeg\jidctfst.c"
+"D:\Work2005\Src\Libs\ljpeg\jidctint.c"
+"D:\Work2005\Src\Libs\ljpeg\jidctred.c"
+"D:\Work2005\Src\Libs\ljpeg\jmemmgr.c"
+"D:\Work2005\Src\Libs\ljpeg\jmemnobs.c"
+"D:\Work2005\Src\Libs\ljpeg\jquant1.c"
+"D:\Work2005\Src\Libs\ljpeg\jquant2.c"
+"D:\Work2005\Src\Libs\ljpeg\jutils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP66.tmp" 
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP67.tmp" with contents
+[
+/nologo /out:"!Out\Debug\ljpeg.lib" 
+".\!Out\Debug\jcapimin.obj"
+".\!Out\Debug\jcapistd.obj"
+".\!Out\Debug\jccoefct.obj"
+".\!Out\Debug\jccolor.obj"
+".\!Out\Debug\jcdctmgr.obj"
+".\!Out\Debug\jchuff.obj"
+".\!Out\Debug\jcinit.obj"
+".\!Out\Debug\jcmainct.obj"
+".\!Out\Debug\jcmarker.obj"
+".\!Out\Debug\jcmaster.obj"
+".\!Out\Debug\jcomapi.obj"
+".\!Out\Debug\jcparam.obj"
+".\!Out\Debug\jcphuff.obj"
+".\!Out\Debug\jcprepct.obj"
+".\!Out\Debug\jcsample.obj"
+".\!Out\Debug\jctrans.obj"
+".\!Out\Debug\jdapimin.obj"
+".\!Out\Debug\jdapistd.obj"
+".\!Out\Debug\jdatadst.obj"
+".\!Out\Debug\jdatasrc.obj"
+".\!Out\Debug\jdcoefct.obj"
+".\!Out\Debug\jdcolor.obj"
+".\!Out\Debug\jddctmgr.obj"
+".\!Out\Debug\jdhuff.obj"
+".\!Out\Debug\jdinput.obj"
+".\!Out\Debug\jdmainct.obj"
+".\!Out\Debug\jdmarker.obj"
+".\!Out\Debug\jdmaster.obj"
+".\!Out\Debug\jdmerge.obj"
+".\!Out\Debug\jdphuff.obj"
+".\!Out\Debug\jdpostct.obj"
+".\!Out\Debug\jdsample.obj"
+".\!Out\Debug\jdtrans.obj"
+".\!Out\Debug\jerror.obj"
+".\!Out\Debug\jfdctflt.obj"
+".\!Out\Debug\jfdctfst.obj"
+".\!Out\Debug\jfdctint.obj"
+".\!Out\Debug\jidctflt.obj"
+".\!Out\Debug\jidctfst.obj"
+".\!Out\Debug\jidctint.obj"
+".\!Out\Debug\jidctred.obj"
+".\!Out\Debug\jmemmgr.obj"
+".\!Out\Debug\jmemnobs.obj"
+".\!Out\Debug\jquant1.obj"
+".\!Out\Debug\jquant2.obj"
+".\!Out\Debug\jutils.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP67.tmp"
+<h3>Output Window</h3>
+Compiling...
+jcapimin.c
+jcapistd.c
+jccoefct.c
+jccolor.c
+jcdctmgr.c
+jchuff.c
+jcinit.c
+jcmainct.c
+jcmarker.c
+jcmaster.c
+jcomapi.c
+jcparam.c
+jcphuff.c
+jcprepct.c
+jcsample.c
+jctrans.c
+jdapimin.c
+jdapistd.c
+jdatadst.c
+d:\work2005\src\libs\ljpeg\jdatadst.c(121) : warning C4018: '!=' : signed/unsigned mismatch
+jdatasrc.c
+Generating Code...
+Compiling...
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+jdmerge.c
+jdphuff.c
+jdpostct.c
+jdsample.c
+jdtrans.c
+jerror.c
+jfdctflt.c
+jfdctfst.c
+jfdctint.c
+jidctflt.c
+jidctfst.c
+jidctint.c
+Generating Code...
+Compiling...
+jidctred.c
+jmemmgr.c
+jmemnobs.c
+jquant1.c
+jquant2.c
+jutils.c
+Generating Code...
+Creating library...
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP68.bat" with contents
+[
+@echo off
+copy !Out\Debug\ljpeg.lib ljpeg_d.lib
+]
+Creating command line "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP68.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ljpeg.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

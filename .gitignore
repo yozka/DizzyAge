@@ -1,0 +1,8 @@
+/AudioWorks/*.exe
+/Editor/!Out
+/Engine/!Out
+/Engine/Debug
+/Game/!Out
+/Pak/!Out
+/Workspace/VC8/Backup
+/Workspace/VC8/.vs

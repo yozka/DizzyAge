@@ -1,0 +1,15 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// checkoperations.h
+//////////////////////////////////////////////////////////////////////////////////////////////////
+#ifndef __CHECKOPERATIONS_H__
+#define __CHECKOPERATIONS_H__
+
+void	OpExportFile(char *inputfile, BOOL dir);
+void	OpImportFile(char *inputfile, BOOL dir);
+void	OpGetLastTag(char *inputfile, BOOL dir);
+
+int		ParseMessageText( char* buffer, int& msgstart, int& msglen ); // 0=no more, 1=ok, -1=broken
+BOOL	ParserSkipToTag( char* buffer, char* tagprefix, char* tagsufix, int& tagid, int& tagpos, int& taglen );
+
+#endif
+//////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ZLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"!Out\Debug/" /Fd"!Out\Debug/" /FD /GZ /c 
+"D:\Work2005\Src\Libs\zlib\adler32.c"
+"D:\Work2005\Src\Libs\zlib\compress.c"
+"D:\Work2005\Src\Libs\zlib\crc32.c"
+"D:\Work2005\Src\Libs\zlib\deflate.c"
+"D:\Work2005\Src\Libs\zlib\gzio.c"
+"D:\Work2005\Src\Libs\zlib\infblock.c"
+"D:\Work2005\Src\Libs\zlib\infcodes.c"
+"D:\Work2005\Src\Libs\zlib\inffast.c"
+"D:\Work2005\Src\Libs\zlib\inflate.c"
+"D:\Work2005\Src\Libs\zlib\inftrees.c"
+"D:\Work2005\Src\Libs\zlib\infutil.c"
+"D:\Work2005\Src\Libs\zlib\trees.c"
+"D:\Work2005\Src\Libs\zlib\uncompr.c"
+"D:\Work2005\Src\Libs\zlib\unzip.c"
+"D:\Work2005\Src\Libs\zlib\zip.c"
+"D:\Work2005\Src\Libs\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP69.tmp" 
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP6A.tmp" with contents
+[
+/nologo /out:"!Out\Debug\ZLib.lib" 
+".\!Out\Debug\adler32.obj"
+".\!Out\Debug\compress.obj"
+".\!Out\Debug\crc32.obj"
+".\!Out\Debug\deflate.obj"
+".\!Out\Debug\gzio.obj"
+".\!Out\Debug\infblock.obj"
+".\!Out\Debug\infcodes.obj"
+".\!Out\Debug\inffast.obj"
+".\!Out\Debug\inflate.obj"
+".\!Out\Debug\inftrees.obj"
+".\!Out\Debug\infutil.obj"
+".\!Out\Debug\trees.obj"
+".\!Out\Debug\uncompr.obj"
+".\!Out\Debug\unzip.obj"
+".\!Out\Debug\zip.obj"
+".\!Out\Debug\zutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\xela\LOCALS~1\Temp\RSP6A.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+unzip.c
+zip.c
+zutil.c
+Generating Code...
+Creating library...
+Creating temporary file "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP6B.bat" with contents
+[
+@echo off
+copy !Out\Debug\zlib.lib zlib_d.lib
+]
+Creating command line "C:\DOCUME~1\xela\LOCALS~1\Temp\RSP6B.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ZLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

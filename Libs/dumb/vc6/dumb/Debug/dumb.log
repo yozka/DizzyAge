@@ -1,0 +1,55 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  xmeffect.c
+  readxm2.c
+  readxm.c
+  reads3m2.c
+  reads3m.c
+  readmod2.c
+  readmod.c
+  loadxm2.c
+  loadxm.c
+  loads3m2.c
+  loads3m.c
+  loadmod2.c
+  loadmod.c
+  itunload.c
+  itrender.c
+  itread2.c
+  itread.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\src\it\itread.c(233,49): warning C4244: =: преобразование "long" в "byte", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\src\it\itread.c(242,47): warning C4244: =: преобразование "long" в "byte", возможна потеря данных
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\src\it\itread.c(755,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  itorder.c
+  itmisc.c
+  itload2.c
+  Создание кода...
+  Компиляция...
+  itload.c
+  stdfile.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\src\helpers\stdfile.c(28,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  silence.c
+  sampbuf.c
+  resample.c
+  memfile.c
+  clickrem.c
+  unload.c
+  rendsig.c
+  rendduh.c
+  register.c
+  readduh.c
+  rawsig.c
+  makeduh.c
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\src\core\makeduh.c(123,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\src\core\makeduh.c(126,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  loadduh.c
+  dumbfile.c
+  duhtag.c
+  duhlen.c
+  atexit.c
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\vc6\dumb\Debug\dumb.lib) не соответствует значению свойства выходного файла (D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\vc6\dumb\Debug\dumbd.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(dumb) не соответствует значению свойства выходного файла (dumbd) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  dumb.vcxproj -> D:\Projects\Smartphones\DizzyAGE\dizzyage_src_v24\Libs\dumb\vc6\dumb\Debug\dumb.lib

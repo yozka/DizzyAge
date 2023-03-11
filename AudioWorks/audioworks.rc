@@ -1,0 +1,126 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 240, 260
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Audioworks v2.2"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,59,10,144,71,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,59,30,157,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE1,218,30,14,14
+    EDITTEXT        IDC_EDIT2,59,47,157,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE2,218,46,14,14
+    COMBOBOX        IDC_COMBO2,59,65,45,40,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT3,132,64,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,193,64,41,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "PROCEED",IDC_PROCEED,10,234,48,16
+    PUSHBUTTON      "EXIT",IDC_EXIT,134,234,48,16
+    PUSHBUTTON      "HELP",IDC_HLP,186,234,48,16
+    EDITTEXT        IDC_LOG,10,85,224,140,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Text1",IDC_TEXT1,10,33,44,8
+    LTEXT           "Text2",IDC_TEXT2,10,50,44,8
+    LTEXT           "Operation",IDC_STATIC,10,12,35,11
+    LTEXT           "Text3",IDC_TEXT3,110,66,20,8
+    LTEXT           "Text4",IDC_TEXT4,178,66,14,8
+    LTEXT           "Text5",IDC_TEXT5,10,66,45,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 234
+        VERTGUIDE, 122
+        VERTGUIDE, 216
+        TOPMARGIN, 10
+        BOTTOMMARGIN, 250
+        HORZGUIDE, 30
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Tool.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
